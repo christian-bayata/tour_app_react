@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f8;
+  color: #222;
+}
+
+.tour-heading {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(47, 79, 79);
+}
+
+hr {
+  display: block;
+  width: 7%;
+  padding: 0.2rem;
+  margin: 0 auto;
+  border: 0 none;
+  background-color: rgb(30, 144, 255);
+  opacity: 0.5;
+  border-width: 1px;
+}
+
+.tour-body {
+  display: block;
+  margin: 5rem auto;
+  width: 50%;
+}
+
+.tour-body img {
+  height: 30rem;
+  width: 100%;
+  background-size: cover;
+}
+
+.header-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.content-header {
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.price {
+  color: rgb(0, 150, 255);
+  background-color: rgb(240, 255, 255);
+  display: block;
+  float: right;
+  padding: 0 0.6rem;
+}
+
+.card-body {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px hidden #f1f5f8;
+  padding: 1rem;
+}
+
+.card-text {
+  font-size: 20px;
+  color: rgb(0, 150, 255);
+}
+
+.show-text {
+  color: rgb(2, 26, 43);
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.reveal-text {
+  display: inline;
+}
+
+.interest {
+  color: rgb(189, 33, 33);
+  border: 1px solid rgb(189, 33, 33);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-size: 22px;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.2rem 2rem;
+  border-radius: 5px;
+}
